@@ -1,0 +1,11 @@
+canvas{
+    position: absolute;
+    left:300px;
+    top:80px;
+}
+#canvas{
+    z-index: 1 ;
+}#canvas1{
+    z-index: 0 ;
+    background-color: cyan ;
+}
