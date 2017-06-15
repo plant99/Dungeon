@@ -1,14 +1,26 @@
-canvas{
+canvas {
     position: absolute;
-    left:300px;
-    top:120px;
-    border-radius: 10px ;
+    left: 42%;
+    top: 300px;
+    border-radius: 5px;
 }
-#canvas{
-    z-index:  0;
-}#canvas1{
-    z-index: 9 ;
-    background-color: none ;
+
+#canvas {
+    z-index: 0;
+}
+
+#canvas1 {
+    z-index: 1000;
+    background-color: none;
+}
+
+.level {
+    width: 5%;
+    margin-left: 47.5%;
+}
+
+.level p {
+    display: inline-block;
 }
 
 .card {
@@ -21,7 +33,7 @@ canvas{
     height: 100%;
     background-color: black;
     opacity: 0.8;
-    z-index: 100 ;
+    z-index: 2000;
 }
 
 .card h2 {
@@ -46,22 +58,35 @@ canvas{
 .escape:hover {
     cursor: pointer;
 }
-.timer{
-	width: 15% ;
-	margin-left: 45% ;
-	background-color: yellow;
-	margin-top: 20px ;
-	padding: 10px ;
-	padding-bottom: 5px ;
-	border-radius: 10px ;
+
+.timer {
+    width: 15%;
+    margin-left: 42%;
+    background-color: yellow;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
 }
-body{
-	text-align: center; 
+
+body {
+    text-align: center;
 }
-body button{
-	margin-top: 5px ;
-	margin-left: 5% ;
+
+body button {
+    margin-top: 5px;
+    margin-left: 5%;
 }
-.timer p{
-	display: inline-block;
+
+.timer p {
+    display: inline-block;
+}
+
+#timer_start {
+    margin: 30px;
+    margin-left: 40px;
+}
+
+body {
+    background-color: cyan;
 }
