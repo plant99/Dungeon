@@ -34,7 +34,10 @@ makePlayers()
 
 generateFirstFloor()
 var p = new Player(20, 20, 40, 0)
+window.onload = function(){
+
 drawRequiredBoxes()
+}
 window.onkeydown = function(e) {
     canMove = true;
     if (timerStarted) {
